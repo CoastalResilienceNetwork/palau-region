@@ -1,0 +1,70 @@
+{
+    "googleAnalyticsPropertyId": "7401895-54",
+    "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
+    "titleMain": { "text": "Palau", "url": "" },
+    "titleDetail": { "text": "Palau", "url": "" },
+    "headerLinks": [
+        { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
+        { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
+    ],
+    "regionLinks": [
+            { "text": "California", "url": "http://maps.coastalresilience.org/california" },
+            { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
+            { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
+            { "text": "Gulf of Mexico", "url": "http://maps.coastalresilience.org/gulfmex/" },
+            { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
+            { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
+            { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
+            { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
+            { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
+            { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
+            { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
+    ],
+    "initialExtent": [
+        133.694963497,
+        6.823509819,
+        135.145376563,
+        8.16606551 
+    ],
+    "basemaps": [
+        { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
+        { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
+        { "name": "Ocean"              , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" }
+    ],
+    "pluginOrder": [
+        "regional-planning"
+    ],
+    "print": {
+       "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+	   "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
+	   "headerLogoPath": "http://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
+    },
+    "colors": {
+        "primary": "#2F6384",
+		"secondary": "#5E94B6",
+		"tertiary": "#333333",
+		"active": "#0096D6"
+    },
+   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+    "launchpad": {
+            "title": "Palau",
+            "description": "Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards.",
+            "plugins": [
+                {
+                     "title": "<img src='img/fisheries_production.png' hspace=10>Aquaculture Siting Explorer",
+                    "description": "Explore Aqauculture Siting Suitability",
+                    "pluginName": "regional-planning"
+                }
+            ],
+            "partners": [
+                {
+                    "logoPath": "img/TNCLogoPrimary_RGB.png",
+                    "link": "http://nature.org",
+                    "title": "The Nature Conservancy"
+            }
+        ]
+    }
+}
+
+
+

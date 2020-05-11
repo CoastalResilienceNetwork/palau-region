@@ -1,0 +1,17 @@
+[
+    {
+        "displayName": "Finfish",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Palau",
+            "name": "Aqua_Siting"
+        },
+        "includeLayers": [
+            {
+                "name": "Finfish Aquaculture Overall Suitability",
+                "displayName": "Overall Suitability Score"
+            }
+        ]
+    }
+]
