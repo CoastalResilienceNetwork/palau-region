@@ -9,8 +9,46 @@
         },
         "includeLayers": [
             {
-                "name": "Finfish Aquaculture Overall Suitability",
-                "displayName": "Overall Suitability Score"
+                "name": "Proposed_Aquaculture_Areas_Finfish",
+                "displayName": "Proposed Aquaculture Areas"
+            },
+            {
+                "name": "Finfish_Suitability_Scores",
+                "displayName": "Overall Suitability Scores"
+            }
+        ]
+    },
+    {
+        "displayName": "Clams",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Palau",
+            "name": "Aqua_Siting"
+        },
+        "includeLayers": [
+            {
+                "name": "Proposed_Aquaculture_Areas_Clam",
+                "displayName": "Proposed Aquaculture Areas"
+            },
+            {
+                "name": "Clam_Suitability_Scores",
+                "displayName": "Overall Suitability Scores"
+            }
+        ]
+    },
+    {
+        "displayName": "Stakeholder Proposed Areas",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Palau",
+            "name": "Aqua_Siting"
+        },
+        "includeLayers": [
+            {
+                "name": "Stakeholder_Proposed_Aquaculture_Areas",
+                "displayName": "Proposed Aquaculture Areas (2019)"
             }
         ]
     }
