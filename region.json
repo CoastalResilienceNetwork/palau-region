@@ -51,7 +51,7 @@
             "description": "Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards.",
             "plugins": [
                 {
-                     "title": "<img src='img/fisheries_production.png' hspace=10>Aquaculture Siting Explorer",
+                     "title": "<img src='img/Tuna_Fisheries.png' hspace=10>Aquaculture Siting Explorer",
                     "description": "Explore Aqauculture Siting Suitability",
                     "pluginName": "regional-planning"
                 }
