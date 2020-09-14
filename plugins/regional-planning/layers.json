@@ -9,8 +9,8 @@
         },
         "includeLayers": [
             {
-                "name": "Proposed_Aquaculture_Areas_Finfish",
-                "displayName": "Proposed Aquaculture Areas"
+                "name": "Highest Suitability Areas for Finfish Aquaculture",
+                "displayName": "Highest Suitability Areas for Finfish Aquaculture"
             },
             {
                 "name": "Finfish_Suitability_Scores",
@@ -28,8 +28,8 @@
         },
         "includeLayers": [
             {
-                "name": "Proposed_Aquaculture_Areas_Clam",
-                "displayName": "Proposed Aquaculture Areas"
+                "name": "Highest Suitability Areas for Clam Aquaculture",
+                "displayName": "Highest Suitability Areas for Clam Aquaculture"
             },
             {
                 "name": "Clam_Suitability_Scores",
